@@ -1,3 +1,3 @@
 # balance.py
-# version 04.06 stable.
-# + 13 .rar for balance.exe 
+# version 04.08 stable.
+# + 4 .rar for balance.exe 
