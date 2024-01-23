@@ -1,5 +1,6 @@
-"""Intermediate balance calculating program.
-Version 04.08 where xlwings is used.
+"""balance.py (version 04.08) is intermediate balance 
+calculating program where xlwings library is used to 
+interact with .xlsx data file.
 
 xlwings (Open Source) is a BSD-licensed Python library that 
 makes it easy to call Python from Excel and vice versa:
@@ -18,6 +19,10 @@ xlwings-powered workbooks are easy to distribute and
 work on Windows and Mac.
 
 https://docs.xlwings.org/en/latest/index.html
+
+To understand the primary Task and calculating algorithm 
+please GOTO:
+
 """
 
 import xlwings as xw
