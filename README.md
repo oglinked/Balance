@@ -2,8 +2,8 @@
 # version 04.08 stable.
 # + 4 .rar for balance.exe 
 
-balance.py (version 04.08) is intermediate balance 
-calculating program where xlwings library is used to 
+The program balance.py (version 04.08) is intermediate 
+balance calculating program where xlwings library is used to 
 interact with .xlsx data file.
 
 xlwings (Open Source) is a BSD-licensed Python library that 
@@ -26,4 +26,5 @@ https://docs.xlwings.org/en/latest/index.html
 
 To understand the primary Task and calculating algorithm 
 please GOTO: 
+
 https://github.com/oglinked/balance/blob/main/task.txt
