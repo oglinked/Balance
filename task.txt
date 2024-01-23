@@ -1,10 +1,20 @@
 The task:
+--------------------
 The problem column is column "I". See how numbers are calculated:
 
-=Value for the previous day + [all values from D column of the same date are positive] + [ all values from N column of the same date are negative].
+=Value for the previous day + [all values from D column of the same date 
+are positive] + [ all values from N column of the same date are negative].
 
 How the program should work. User's perspective:
-I select a cell, e.g. I36, then I run Pyhon script and formula is populated to that cell and calculation happen, then I go to I37 and run Python script again, then I37 gets populated with a formula.
+I select a cell, e.g. I36, then I run Pyhon script and formula is 
+populated to that cell and calculation happen, then I go to I37 
+and run Python script again, then I37 gets populated with a formula.
 
 Possible algorithm, approximately:
-Select cell I36, then launch Python script. script takes date from H36 column - Date1, then looks all values in column B starting from cell B13 and downwards, find dates that match Date1 and takes corresponding values from D column and adds those values from D column to the formula in I36, then script looks all values in column "L" and searches Date1 and then takes corresponding values from "N" column and then deducts from formula in I36.
+Select cell I36, then launch Python script. script takes date 
+from H36 column - Date1, then looks all values in column B 
+starting from cell B13 and downwards, find dates that match 
+Date1 and takes corresponding values from D column and adds those values 
+from D column to the formula in I36, then script looks all values in 
+column "L" and searches Date1 and then takes corresponding values from 
+"N" column and then deducts from formula in I36.
