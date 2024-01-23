@@ -21,8 +21,8 @@ work on Windows and Mac.
 https://docs.xlwings.org/en/latest/index.html
 
 To understand the primary Task and calculating algorithm 
-please GOTO:
-
+please GOTO: 
+https://github.com/oglinked/balance/blob/main/task.txt
 """
 
 import xlwings as xw
